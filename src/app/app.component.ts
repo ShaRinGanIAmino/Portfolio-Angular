@@ -1,13 +1,26 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+import { ExperienceComponent } from '../pages/experience/experience.component';
+import { SkillsComponent } from '../pages/skills/skills.component';
+import { ProjectsComponent } from '../pages/projects/projects.component';
+import { AboutComponent } from '../pages/about/about.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [
+    CommonModule,
+    RouterOutlet,
+    RouterLink,
+    RouterLinkActive,
+    AboutComponent,
+    ExperienceComponent,
+    ProjectsComponent,
+    SkillsComponent,
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'portfolio';
