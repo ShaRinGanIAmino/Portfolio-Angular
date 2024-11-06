@@ -1,20 +1,2 @@
-<div class="text-red-600">hello world</div>
-<nav class="flex gap-4">
-  <a
-    class="button"
-    routerLink="/"
-    routerLinkActive="activeButton"
-    [routerLinkActiveOptions]="{ exact: true }"
-    >About</a
-  >
-  <a class="button" routerLink="/experience" routerLinkActive="activeButton"
-    >Experience</a
-  >
-  <a class="button" routerLink="/projects" routerLinkActive="activeButton"
-    >Projects</a
-  >
-  <a class="button" routerLink="/skills" routerLinkActive="activeButton"
-    >Skills</a
-  >
-</nav>
+<app-navbar></app-navbar>
 <router-outlet></router-outlet>

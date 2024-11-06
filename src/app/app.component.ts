@@ -5,6 +5,7 @@ import { ExperienceComponent } from '../pages/experience/experience.component';
 import { SkillsComponent } from '../pages/skills/skills.component';
 import { ProjectsComponent } from '../pages/projects/projects.component';
 import { AboutComponent } from '../pages/about/about.component';
+import { NavbarComponent } from '../components/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { AboutComponent } from '../pages/about/about.component';
     RouterOutlet,
     RouterLink,
     RouterLinkActive,
+    NavbarComponent,
     AboutComponent,
     ExperienceComponent,
     ProjectsComponent,

@@ -9,8 +9,7 @@ module.exports = {
         border: "#A3A3A3",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        mont: ["Montserrat", "sans-serif"],
+        playfair: ['"Playfair Display"', "serif"],
       },
     },
     screens: {
